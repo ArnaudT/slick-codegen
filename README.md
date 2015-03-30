@@ -2,4 +2,7 @@
 
 Slick 3 codegen example with MySQL.
 
-More information on [the official slick website](http://slick.typesafe.com/doc/3.0.0-RC2/).
+- execute the MySL script in your database.
+- run sbt test
+
+More information on [the official slick website](http://slick.typesafe.com).
