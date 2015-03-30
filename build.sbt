@@ -28,6 +28,6 @@ val jdbcDriver = "com.mysql.jdbc.Driver"
   val slickDriver = "slick.driver.MySQLDriver"
   val pkg = "com.example.models"
   toError(r.run("slick.codegen.SourceCodeGenerator", cp.files, Array(slickDriver, jdbcDriver, url, outputDir, pkg, username, password), s.log))
-  val fname = outputDir + "/" + "com/example/models" + "/Tables.scala"
+  val fname = outputDir + "/" + "me/arnaudtanguy/models" + "/Tables.scala"
   Seq(file(fname))
 }
