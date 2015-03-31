@@ -12,7 +12,7 @@ class ActionDaoSpec extends FlatSpec with Matchers with ScalaFutures {
   private val actionDao = ActionDaoImpl(db)
 
   "save" should "save the value without exception" in {
-    actionDao.save("Hello!")
+    actionDao.save("Hello!").futureValue
   }
 
   "findById" should "find a row" in {
