@@ -1,6 +1,6 @@
 package me.arnaudtanguy.dao
 
-import com.example.models.Tables.profile.api._
+import me.arnaudtanguy.models.Tables.profile.api._
 import org.scalatest._
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.time.{Millis, Seconds, Span}
