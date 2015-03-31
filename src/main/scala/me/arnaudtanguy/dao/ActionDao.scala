@@ -2,9 +2,9 @@ package me.arnaudtanguy.dao
 
 import java.util.concurrent.Executors
 
-import com.example.models.Tables
-import com.example.models.Tables._
-import com.example.models.Tables.profile.api._
+import me.arnaudtanguy.models.Tables
+import me.arnaudtanguy.models.Tables._
+import me.arnaudtanguy.models.Tables.profile.api._
 
 import scala.concurrent.{ExecutionContext, Future}
 
